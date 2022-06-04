@@ -1,0 +1,346 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@charset "UTF-8";
+
+/* div#zawartosc {color:rgb(26, 25, 45); margin-left:18em; margin-right:5em; margin-top: 2em;padding: 1px 0 1px 1em;} */
+/* nav {float:left; width:10em; background:#293964; margin:2;}
+nav a {display:block; padding:0.2em 0 0.2em 0.5em; text-decoration:none; margin:0;
+color:rgb(255, 255, 255);}
+nav a:hover {background-color:#8c509b;} */
+/* nav {float:left;} */
+
+
+div#log {color:rgb(26, 25, 45); margin-left:30em; margin-right:30em; margin-top: 2em;padding: 1px 0 1px 1em;}
+
+.text-container {
+    background: #4492E0;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+  }
+
+  .icons {
+    position:relative;
+    top: 50px;
+    margin-left: 10px;
+
+  }
+
+  .homepage {
+    background-image: url("../img/169-1692394_games-collection.jpg");
+  }
+
+  #shet{
+    position:relative;
+    margin-bottom: 10px;
+  }
+  .stat{
+    position:absolute;
+    left:75px;
+    font-size: 14px;
+    
+    
+  }
+
+  .signs
+  {
+    font-size: 40px;
+    color: white;
+    text-shadow:2px 2px 2px #000000;
+    text-align: center;
+    margin-top: 270px;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: -1px;
+    word-spacing: 3px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    /* background-color: #333; */
+    background: rgba(3, 3, 3, 0.6)
+      
+
+  }
+
+  .playtime
+  {
+    border: 1px solid black;
+  }
+
+  .form-control {
+    background-color: #e0e0e0;
+    width: 358px;
+    height: 35px;
+    /* padding-right: 50px; */
+    display:inline-block;
+    padding:14px 10px;
+    line-height:160%;
+}
+
+.s {
+    margin-left: -32px;
+   
+    
+}
+
+
+
+  /* .form-control
+  {
+    background-color: #e0e0e0;
+    color: black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 400px;
+  }
+
+  .form-group button
+  {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    margin-right: 630px;
+    
+  } */
+
+  .form-group 
+  {
+    position: relative; 
+  }
+
+  /* .s
+  {
+    display:inline-block;
+    padding:12px 10px;
+    line-height:140%;
+  } */
+
+  .butts {
+    background:linear-gradient(to bottom, #00ec95 5%, #00a1f8 100%);
+    background-color:#00ec95;
+    border-radius:15px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:14px;
+    padding:12px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
+  }
+
+
+.buttsLogin {
+  background:linear-gradient(to bottom, #00ec95 5%, #00a1f8 100%);
+  background-color:#00ec95;
+  border-radius:15px;
+  max-width: 100%;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Verdana;
+  font-size:14px;
+  /*padding:12px 205px;*/
+  width: 450px;
+  height: 40px;
+  /*max-width: 100%;*/
+  text-decoration:none;
+  text-shadow:0px 1px 0px #000000;
+
+
+}
+
+.buttsOFF {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+  filter: alpha(opacity=0.5);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background:linear-gradient(to bottom, #00ec95 5%, #00a1f8 100%);
+  background-color:#00ec95;
+  border-radius:15px;
+  display:inline-block;
+  /*cursor:help;*/
+  color:#ffffff;
+  font-family:Verdana;
+  font-size:14px;
+  padding:12px 20px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #000000;
+}
+
+  .butts:hover {
+    background:linear-gradient(to bottom, #00a1f8 5%, #00ec95 100%);
+    background-color:#00a1f8;
+  }
+  .butts:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .stats {
+    background: transparent;
+    color: rgb(38, 48, 78);
+    
+    border: 0 none;
+    
+    outline: none;
+    
+  }
+  
+
+
+  /* .stats:focus {
+    color: white;
+  } */
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    div#log{
+      overflow: scroll;
+      margin-left:2em; margin-right:2em; margin-top: 2em;
+    }
+    .icons
+    {
+      position: relative;
+    }
+
+    .buttsLogin {
+      text-align: center;
+      position: relative;
+      max-width: 100%;
+      max-height: 100%;
+
+
+    }
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
